@@ -1,0 +1,12 @@
+.column {
+  height: 15vw;
+  width: 1.5vw;
+  border: 1px solid black;
+  background-color: blue;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(40, 1fr);
+  align-items: end;
+}
